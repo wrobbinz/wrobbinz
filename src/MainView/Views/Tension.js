@@ -20,7 +20,7 @@ class Tension {
             </p>
         </div>
       </section>
-    )
+    );
   }
 }
 

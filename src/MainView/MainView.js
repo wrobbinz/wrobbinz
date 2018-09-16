@@ -1,11 +1,12 @@
 import m from 'mithril';
+import Tension from './views/Tension';
 import './MainView.scss';
 
 
 class MainView {
   constructor(vnode) {
     this.views = {
-
+      tension: Tension,
     };
   }
 
