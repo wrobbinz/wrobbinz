@@ -1,0 +1,26 @@
+#nav {
+  > ul {
+    padding-inline-start: 0;
+    list-style: none;
+    > li {
+      margin-bottom: 1em;
+      a.active {
+        font-weight: 900;
+      }
+      > ul {
+        list-style: none;
+        margin-top: 1em;
+        position: relative;
+        > li {
+          margin-bottom: 1em;
+          .active {
+            list-style: initial;
+          }
+          a {
+            font-weight: 400 !important;
+          }
+        }
+      }
+    }
+  }
+}
