@@ -3,7 +3,6 @@ import Nav from './Nav/Nav';
 import MainView from './MainView/MainView';
 import './styles/styles';
 
-
 class App {
   constructor() {
     this.page = '';
