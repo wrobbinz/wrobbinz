@@ -3,7 +3,7 @@ import Nav from './Nav/Nav';
 import MainView from './MainView/MainView';
 import './styles/styles';
 
-console.log('this is');
+console.log('this is the last part of the solution');
 class App {
   constructor() {
     this.page = '';
